@@ -1,0 +1,142 @@
+/* ----- structure ----- */
+
+header {
+  text-align: center;
+}
+
+.header-logo {
+  height: 100px;
+  margin: 0px;
+
+}
+
+.header-nav {
+  height: 25px;
+
+}
+
+main {
+  min-height: 400px;
+}
+
+footer {
+  height: 150px;
+  background-color: #bdcbd9;
+}
+
+.wrapper {
+  width: 980px;
+  margin: auto;
+}
+
+.wrapper:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* ----- logo ----- */
+
+header h1 {
+  font-size: 40px;
+  margin: 0;
+  padding-top: 50px;
+  font-family: 'Ranga', cursive;
+}
+
+header h1 a {
+  text-decoration: none;
+  color: white;
+}
+
+header h1 a:hover {
+  color: red;
+}
+
+
+/* ----- navigation ----- */
+
+#top-nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#top-nav ul li {
+  display: inline-block;
+  margin-left: 40px;
+}
+
+#top-nav ul li a {
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+  color: white;
+  text-decoration: none;
+}
+
+#top-nav ul li a:hover {
+  color: red;
+}
+
+.first {
+  margin-left: 0 !important;
+}
+
+body {
+background-color: tan;
+padding:auto;
+}
+
+
+div.container1 {
+    width: 100%;
+    border: 30px solid blue;
+    text-align: center;
+}
+
+div.container2 {
+  width: 100%;
+  border: 30px solid red;
+  text-align: center;
+}
+
+div.container3 {
+  width: 100%;
+  border: 30px solid black;
+  padding-right: 60px;
+  text-align: center;
+}
+
+div.container4 {
+  width: 100%;
+  border: 30px solid green;
+  text-align: center;
+}
+
+p {
+font-family: 'Source Sans Pro', sans-serif;
+color: blue; 
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+}
+
+h2 {
+    font-family: 'Pacifico', cursive;
+}
+
+h3 {
+  font-family: 'Ranga', cursive;
+}
+
+
+@font-face {
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Bitter', serif;
+  font-family: 'Pacifico', cursive;
+  font-family: 'Ranga', cursive;
+}
